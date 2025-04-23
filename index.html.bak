@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessio's Pizza - A melhor pizzaria de Cascavel</title>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+        <nav>
+            <ul>
+                <li><a href="#secao1">Home</a></li>
+                <li><a href="#secao2">Cardápio</a></li>
+                <li><a href="#secao3">Sobre nós</a></li>
+                <li><a href="#secao4">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+	<section id="secao1" class="hero">
+		<div class="hero-content">
+		  <h1>Bem-vindo à Alessio's</h1>
+		  <p>Saborosas pizzas feitas especialmente para você!</p>
+		  <a href="#" class="btn">Ver Cardápio</a>
+		</div>
+	</section>
+	<section id="secao2" class="cardapio">
+		<h1 style="text-align: center;">Cardápio</h1>
+		<div class="menu-grid">
+			<div class="card">
+			  <img src="assets/img/margherita.jpg" alt="Pizza Margherita" />
+			  <div class="card-content">
+				<h3>Pizza Margherita</h3>
+				<p>Molho de tomate, mussarela, manjericão fresco.</p>
+			  </div>
+			</div>
+			<div class="card">
+			  <img src="assets/img/pepperoni.jpg" alt="Pizza Pepperoni" />
+			  <div class="card-content">
+				<h3>Pizza Pepperoni</h3>
+				<p>Molho de tomate, pepperoni, queijo mussarela.</p>
+			  </div>
+			</div>
+		  </div>
+	</section>
+	<section id="secao3" class="sobre-nos">
+	  <div class="hero-content">
+		<h2>Sobre Nós</h2>
+		<p>
+		  Nossa pizzaria é dedicada a criar as melhores pizzas do mundo, com ingredientes frescos e receitas exclusivas.
+		</p>
+	  </div>
+	</section>
+
+	<section id="secao4" class="contato">
+	  <h2>Contato</h2>
+	  <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
+	  <div class="info-grid">
+		  <div class="coluna">
+			<p><strong>Endereço:</strong><br>
+			Avenida Onze de Outubro, nº 123<br>
+			Centro, Cidade Qualquer/RJ<br>
+			CEP: 12345-678</p>
+			
+			<div class="teste" style="display:block;width: max-content;margin: 0px 365px;">
+				<p><strong>Horário de Funcionamento:</strong><br>
+				Segunda a Sábado: 11h00 às 23h00<br>
+				Domingo: 16h00 às 23h00</p>
+			</div>
+		  </div>
+
+		  <div class="coluna">
+			<p><strong>Telefone:</strong> (11) 5555-5555<br>
+			<strong>E-mail:</strong> <a href="contato@alessios.pizza">contato@alessios.pizza</a></p>
+		  </div>
+	</div>
+	</section>
+
+	<footer>
+	  <p>© 2024 Alessio's Pizzaria</p>
+	</footer>
+
+</body>
