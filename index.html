@@ -17,7 +17,8 @@
                 <li><a href="#secao1">Home</a></li>
                 <li><a href="#secao2">Cardápio</a></li>
                 <li><a href="#secao3">Sobre nós</a></li>
-                <li><a href="#secao4">Contato</a></li>
+				<li><a href="#secao4">Sugestões</a></li>
+                <li><a href="#secao5">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -56,7 +57,49 @@
 	  </div>
 	</section>
 
-	<section id="secao4" class="contato">
+	<section id="secao4" class="sugestoes">
+		<h2>Envie sua Sugestão de Pizza</h2>
+		<p>Tem uma ideia para uma nova pizza? Compartilhe com a gente!</p>
+		
+		<form action="#" method="POST">
+			<div class="form-group">
+				<label for="tipo-pizza">Tipo de Pizza</label>
+				<select id="tipo-pizza">
+					<option value="vegetariana">Vegetariana</option>
+					<option value="carnes">Carnes</option>
+					<option value="peixes">Peixes</option>
+					<option value="doces">Doces</option>
+				</select>
+			</div>
+	
+			<div class="form-group">
+				<label for="descricao-pizza">Descrição da Pizza</label>
+				<textarea id="descricao-pizza" rows="4" placeholder="Descreva sua pizza..."></textarea>
+			</div>
+	
+			<div class="form-group">
+				<label for="ingredientes">Ingredientes Obrigatórios</label>
+				<select id="ingredientes" multiple>
+					<option value="tomate">Tomate</option>
+					<option value="queijo">Queijo</option>
+					<option value="pepperoni">Pepperoni</option>
+					<option value="bacon">Bacon</option>
+					<option value="mussarela">Mussarela</option>
+					<option value="manjericao">Manjericão</option>
+					<option value="azeitona">Azeitona</option>
+				</select>
+			</div>
+	
+			<div class="form-group">
+				<label for="valor-sugerido">Valor Sugerido (em reais)</label>
+				<input class="valor-sugerido" type="number" placeholder="0.00">
+			</div>
+	
+			<button class="enviar" type="submit" class="btn">Enviar</button>
+		</form>
+	</section>
+
+	<section id="secao5" class="contato">
 	  <h2>Contato</h2>
 	  <p>Entre em contato conosco para fazer pedidos ou tirar suas dúvidas.</p>
 	  <div class="info-grid">
